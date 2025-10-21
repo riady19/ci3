@@ -1,0 +1,35 @@
+<!-- start preloader -->
+<div class="preloader">
+			<div class="sk-spinner sk-spinner-wave">
+     	 		<div class="sk-rect1"></div>
+       			<div class="sk-rect2"></div>
+       			<div class="sk-rect3"></div>
+      	 		<div class="sk-rect4"></div>
+      			<div class="sk-rect5"></div>
+     		</div>
+    	</div>
+    	<!-- end preloader -->
+
+        <!-- start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-phone"></i><span> Phone</span>010-020-0340</p>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="#">awesome@company.com</a></p>
+                    </div>
+                    <div class="col-md-5 col-sm-4 col-xs-12">
+                        <ul class="social-icon">
+                            <li><span>Meet us on</span></li>
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-apple"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->

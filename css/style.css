@@ -1,0 +1,25 @@
+* body {
+  background-color: #1d1c1c;
+  font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(98, 100, 86);
+}
+
+#gallery {
+  /* background-color: black; */
+}
+#karyawan {
+  background-color: rgb(8, 8, 8);
+}
+
+#about {
+  padding-top: 2rem;
+}
+
+#contact {
+  padding-top: 2rem;
+  background-color: rgb(91, 31, 31);
+}

@@ -18,9 +18,9 @@ body {
 }
 
 .container {
-  background-color: #080101;
+  background-color: #cfd0d3;
   border-radius: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 5px 15px rgba(159, 206, 247, 0.35);
   position: relative;
   overflow: hidden;
   width: 768px;
@@ -40,7 +40,7 @@ body {
 }
 
 .container a {
-  color: #333;
+  color: #f3efef;
   font-size: 13px;
   text-decoration: none;
   margin: 15px 0 10px;
@@ -66,7 +66,15 @@ body {
 }
 
 .container form {
-  background-color: #ebbd41;
+  background-color: #e3b212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  height: 100%;
+}
+#sign-up {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +95,13 @@ body {
 }
 
 .form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.form-container .sign-up {
   position: absolute;
   top: 0;
   height: 100%;
@@ -117,6 +132,9 @@ body {
   animation: move 0.6s;
 }
 
+.a .small {
+  color: #c9d6ff;
+}
 @keyframes move {
   0%,
   49.99% {
@@ -205,6 +223,10 @@ body {
 .toggle-right {
   right: 0;
   transform: translateX(0);
+}
+.toggle-panel .toggle-right .a {
+  color: #c9d6ff;
+  text-align: left;
 }
 
 .container.active .toggle-right {
