@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="container">
-  <h3>PESAN MASUK</h3>
+  <h3><?= $title; ?></h3>
 <table class="table table-bordered">
 
 

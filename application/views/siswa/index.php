@@ -56,7 +56,7 @@
 
                                             <!--view MODAL --> 
                                             <td>
-                                            <a href="" class="btn btn-primary mb-3 float-right" data-toggle="modal" data-target="#ModalView<?php echo $sis['id'];?> ">View</a></td> 
+                                            <a href="" class="btn btn-primary mb-3 float-right fas fa-eye" data-toggle="modal" data-target="#ModalView<?php echo $sis['id'];?> "></a></td> 
 
                                            
                                     <!-- Modal View -->
@@ -98,9 +98,8 @@
 
 
 
-                                            <!-- Button trigger modal -->
-                                    <td><button type="submit" class="btn btn-success float-right" data-toggle="modal" data-target="#ModalEdit<?php echo $sis['id'];?> " >
-                                      Edit
+                                            <!-- Button trigger modal EDIT -->
+                                    <td><button type="submit" class="btn btn-success float-right fas fa-pen-square" data-toggle="modal" data-target="#ModalEdit<?php echo $sis['id'];?> " >
                                     </button>
                                     </td>
                                   <!--modala triger end-->
@@ -108,7 +107,7 @@
                                    <!--Hapus Data-->
                                 
                                             <!--Hapus Data-->
-                                            <td onclick="javascrip: return confirm('Ente Yakin Mau Dihapus ?<?= $sis['id'] ;?>')">  <a href="<?php echo base_url() ?>siswa/hapus_data/<?php echo $sis['id']; ?>" class="btn btn-danger" > Delete</a> </td>
+                                            <td onclick="javascrip: return confirm('Ente Yakin Mau Dihapus ?<?= $sis['id'] ;?>')">  <a href="<?php echo base_url() ?>siswa/hapus_data/<?php echo $sis['id']; ?>" class="btn btn-danger fas fa-trash" ></a> </td>
 <!-- Modal tampil EDIT-->
 <?php 
  foreach ($siswa as $sis) :

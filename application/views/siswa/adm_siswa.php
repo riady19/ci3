@@ -49,8 +49,7 @@
 
 
                                             <!--view MODAL -->  
-                                            <td><button type="button" class="btn btn-outline-primary float-right" data-toggle="modal" data-target="#ModalView<?php echo $sis['id'];?> " >
-                                      View
+                                            <td><button type="button" class="btn btn-outline-primary float-right fas fa-eye" data-toggle="modal" data-target="#ModalView<?php echo $sis['id'];?> " >
                                     </button>
 
                                     <div class="modal fade" id="ModalView<?php echo $sis['id']; ?>" tabindex="-1" aria-labelledby="" aria-hidden="true">

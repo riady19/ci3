@@ -10,7 +10,7 @@ class Pesan extends CI_Controller {
     public function index()
    {
 
-    $data['title'] = 'Pesan';
+    $data['title'] = 'Pesan Masuk';
     $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
     $data['pesan'] = $this->M_pesan->get_all_data();
     $this->load->view('template/header', $data);
